@@ -1,0 +1,19 @@
+{
+  "name": "spring-boot-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tsc": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile": "tsc",
+    "build": "npm run clean && npm run compile ",
+    "watch": "tsc -watch",
+    "lint": "tslint -c tslint.json 'src/main/resources/static/js/**/*.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
